@@ -11,23 +11,23 @@
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "7475134575:AAEVBLv69Hf7lsM1pgkzuUSc_fbbq1cmRCk",
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "20841292",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "58c4e84b9b2506684df6447d3e324dd9",
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": "-1002016768614",
             "required": false
         },
         "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "description": "6052303737",
             "required": true
         },
         "SHORT_API": {
@@ -39,16 +39,16 @@
             "required": false
         },
         "PICS": {
-            "description": "Add some telegraph link of pictures .",
-            "required": false
+            "description": "https://telegra.ph/file/c9f7c16c44f45a9da1341.jpg",
+            "required": true
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "description": "-1002206213735",
             "required": true                              
         },
         "AUTH_CHANNEL": {
-            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "required": false
+            "description": "-1001954863976",
+            "required": true
         },           
         "MAX_RIST_BTNS": {
             "description": "Maximum number of serch result buttons count ⚠️below 10 only ",
@@ -61,13 +61,13 @@
             "required": false
         },
         "DATABASE_URL": {
-            "description": "mongoDB URI.",
+            "description": "mongodb+srv://bxjjjzid:<password>@cluster0.bjh3lnd.mongodb.net/",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
             "value": "Cluster0",
-            "required": false
+            "required": true
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
