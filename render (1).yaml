@@ -1,0 +1,28 @@
+# Exported from Render on 2024-05-31T18:10:48Z
+services:
+- type: web
+  name: Pbx1 Autofilter
+  runtime: docker
+  repo: https://github.com/PanjabiMoviePBX1/PROFESSOR-BOT
+  plan: free
+  envVars:
+  - key: PICS
+    sync: false
+  - key: LOG_CHANNEL
+    sync: false
+  - key: DATABASE_NAME
+    sync: false
+  - key: WEBHOOK
+    sync: false
+  - key: DATABASE_URL
+    sync: false
+  - key: BOT_TOKEN
+    sync: false
+  - key: API_HASH
+    sync: false
+  - key: API_ID
+    sync: false
+  region: frankfurt
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
