@@ -7,21 +7,21 @@ services:
   plan: free
   envVars:
   - key: PICS
-    sync: false
+    sync: https://telegra.ph/file/c9f7c16c44f45a9da1341.jpg
   - key: LOG_CHANNEL
-    sync: false
+    sync: -1002206213735
   - key: DATABASE_NAME
-    sync: false
+    sync: cluster0
   - key: WEBHOOK
-    sync: false
+    sync: true
   - key: DATABASE_URL
-    sync: false
+    sync: mongodb+srv://bxjjjzid:<password>@cluster0.bjh3lnd.mongodb.net/
   - key: BOT_TOKEN
-    sync: false
+    sync: 7475134575:AAEVBLv69Hf7lsM1pgkzuUSc_fbbq1cmRCk
   - key: API_HASH
-    sync: false
+    sync: 58c4e84b9b2506684df6447d3e324dd9
   - key: API_ID
-    sync: false
+    sync: 20841292
   region: frankfurt
   dockerContext: .
   dockerfilePath: ./Dockerfile
