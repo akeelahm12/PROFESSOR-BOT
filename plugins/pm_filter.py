@@ -126,7 +126,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
 
     btn.insert(0, [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "https://t.me/pbx1howtodwnload/4")])
     if offset != "":
-        key = f"{message.id}"
+        key = f"{4}"
         temp.PM_BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
