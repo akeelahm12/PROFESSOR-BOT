@@ -51,7 +51,7 @@ async def pm_next_page(bot, query):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
 
     btn.insert(0, [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "https://t.me/pbx1howtodwnload/4")])
-    if 0 < offset <= 10: off_set = 0
+    if 0 < offset <= 10: off_set = 1
     elif offset == 0: off_set = None
     else: off_set = offset - 10
     if n_offset == 0:
