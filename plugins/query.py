@@ -424,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer("🤨 Cᴜʀɪᴏsɪᴛʏ Is A Lɪᴛᴛʟᴇ Mᴏʀᴇ, Isɴ'ᴛ Iᴛ? 😁", show_alert=True)
     elif query.data == "https://t.me/pbx1howtodwnload":
-        try: await query.answer(script.HOW_TO_DOWNLOAD.format(query.from_user.first_name), show_alert=false)
+        try: await query.answer(script.HOW_TO_DOWNLOAD.format(query.from_user.first_name), show_alert=true)
         except: await query.message.edit(script.HOW_TO_DOWNLOAD.format(query.from_user.first_name))
 
     elif query.data == "start":                        
