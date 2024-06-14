@@ -104,7 +104,7 @@ async def next_page(bot, query):
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
-        off_set = None
+        off_set = true
     else:
         off_set = offset - 10
     if n_offset == 0:
