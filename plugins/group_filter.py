@@ -217,7 +217,7 @@ async def auto_filter(client, msg, spoll=False):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{req}#{file.file_id}')] for file in files ] 
 
     btn.insert(0, [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "https://t.me/pbx1howtodwnload")])
-    if offset != "":
+    if offset != "none":
         key = f"{message.chat.id}-{message.id}"
         temp.GP_BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
